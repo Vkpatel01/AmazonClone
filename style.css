@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.head-container {
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  z-index: 2;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.amazon-logo {
+  width: 128px;
+  height: 49px;
+  margin: 1px;
+  background-image: url(logo.png);
+  background-size: cover;
+  align-items: center;
+}
+.address {
+  width: 157px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  /*margin-left: 15px;*/
+}
+.address-icon {
+  margin-left: 1px;
+  color: white;
+  padding: 2px;
+}
+.first-address {
+  color: white;
+  margin: 2px;
+  padding: 2px;
+}
+.search-bar {
+  width: 1204px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  /*margin-left: 10px;*/
+}
+.options {
+  height: 50px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+.select-bar {
+  display: flex;
+  align-items: center;
+  /* margin-left: 5px;*/
+}
+.nav-select {
+  height: 50px;
+  width: 130px;
+  padding: 5px;
+}
+.search-area {
+  margin-left: -18px;
+  height: 50px;
+  width: 1010px;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+.search-area2 {
+  height: 50px;
+  width: 1010px;
+  border-radius: 4px;
+  padding-left: 20px;
+}
+.search-icon {
+  height: 50px;
+  width: 64px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(240, 122, 11);
+  justify-content: center;
+}
+.lang {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  /*margin-left: 10px;*/
+}
+.lang-icon {
+  color: orange;
+  margin-left: 10px;
+}
+.language {
+  color: white;
+  font-weight: bolder;
+}
+.account {
+  height: 60px;
+  width: 132px;
+  display: flex;
+  align-items: center;
+  /* margin-left: 10px;*/
+}
+.sign-in {
+  color: white;
+  align-items: center;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+.returns {
+  width: 130px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  /* margin-left: 5px;*/
+}
+.orders {
+  color: white;
+  padding: 3px;
+}
+.cart {
+  width: 80px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.cart-icons {
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+.carts {
+  color: white;
+  font: bolder;
+}
+.second-navbar {
+  height: 40px;
+
+  background-color: #232f3e;
+  display: flex;
+  position: static;
+  align-items: center;
+}
+.all-menu {
+  height: 35px;
+  display: flex;
+  color: white;
+  align-items: center;
+  width: 60px;
+  margin-left: 12px;
+}
+.all {
+  margin-left: 5px;
+}
+.mini-tv {
+  display: flex;
+  height: 35px;
+  width: 125px;
+  color: white;
+  align-items: center;
+}
+.sell {
+  display: flex;
+  height: 35px;
+  width: 48px;
+  color: white;
+  align-items: center;
+}
+.best-seller {
+  display: flex;
+  height: 35px;
+  width: 98px;
+  color: white;
+  align-items: center;
+}
+.mobile {
+  display: flex;
+  height: 35px;
+  width: 74px;
+  color: white;
+  align-items: center;
+}
+.today-deal {
+  display: flex;
+  height: 35px;
+  width: 109px;
+  color: white;
+  align-items: center;
+}
+.customer-service {
+  display: flex;
+  height: 35px;
+  width: 135px;
+  color: white;
+  align-items: center;
+}
+.new-release {
+  display: flex;
+  height: 35px;
+  width: 110px;
+  color: white;
+  align-items: center;
+}
+.prime {
+  display: flex;
+  height: 35px;
+  width: 75px;
+  color: white;
+  align-items: center;
+}
+.electronics {
+  display: flex;
+  height: 35px;
+  width: 93px;
+  color: white;
+  align-items: center;
+}
+.home-kit {
+  display: flex;
+  height: 35px;
+  width: 128px;
+  color: white;
+  align-items: center;
+}
+.amazon-pay {
+  display: flex;
+  height: 35px;
+  width: 102px;
+  color: white;
+  align-items: center;
+}
+.gift {
+  display: flex;
+  height: 35px;
+  width: 85px;
+  color: white;
+  align-items: center;
+}
+.fashion {
+  display: flex;
+  height: 35px;
+  width: 73px;
+  color: white;
+  align-items: center;
+}
+.computer {
+  display: flex;
+  height: 35px;
+  width: 94px;
+  color: white;
+  align-items: center;
+}
+.book {
+  display: flex;
+  height: 35px;
+  width: 64px;
+  color: white;
+  align-items: center;
+}
+.prime-adv {
+  width: 430px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  background-image: url(prime.png);
+  background-size: cover;
+}
+.border:hover {
+  border: 1px solid white;
+}
+.border2:hover {
+  border: 1px solid orangered;
+}
+.main1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(226, 226, 226);
+}
+.container-1 {
+  height: 600px;
+  width: 1500px;
+  margin: 5px;
+  padding: auto;
+  background: linear-gradient(
+    to bottom,
+    rgb(0, 58, 133),
+    rgba(255, 255, 255, 0)
+  );
+  display: flex;
+}
+.container-1-box1 {
+  height: 600px;
+  width: 1500px;
+  background-image: url(hero_image.jpg);
+  background-size: cover;
+}
+.main2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(226, 226, 226);
+}
+.container-2 {
+  height: 450px;
+  width: 1500px;
+  margin: 5px;
+  padding: auto;
+  background: linear-gradient(
+    to bottom,
+    rgb(0, 58, 133),
+    rgba(255, 255, 255, 0)
+  );
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  grid-template-rows: 750px;
+}
+.boxs1 {
+  width: 400px;
+  height: 420px;
+  background-color: rgb(226, 226, 226);
+}
+.box1 {
+  width: 400px;
+  height: 420px;
+  color: #0f1111;
+  background-image: url(box1.png);
+  background-size: cover;
+}
+.box2 {
+  width: 400px;
+  height: 420px;
+  color: #0f1111;
+  background-image: url(box2.png);
+  background-size: cover;
+}
+
+.box3 {
+  width: 400px;
+  height: 420px;
+  color: #0f1111;
+  background-image: url(box3.png);
+  background-size: cover;
+}
+.box4 {
+  width: 1500px;
+  height: 366px;
+  background-image: url(box4.png);
+  background-size: cover;
+  margin: 15px;
+}
+.adv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(226, 226, 226);
+}
+.adv1 {
+  height: 366px;
+  width: 1500px;
+  background-image: url(b1.png);
+  background-size: cover;
+  margin: 10px;
+}
+.main-footer{
+    height: 50px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+}
+.footer1{
+    height: 40px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: rgb(31, 33, 46);
+   }
+.btt{
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: none;
+    padding: 5px;
+}
+.last-footer{
+    height: 300px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom{
+    color: white;
+    margin: 15px;
+}
